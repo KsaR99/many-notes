@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
-import { type Component, computed } from 'vue';
+import { computed, type Component } from 'vue';
 
 const props = defineProps<{
     href?: string;
